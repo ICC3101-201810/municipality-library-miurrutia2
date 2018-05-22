@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B72ABADA-5B48-4713-9C56-DC80DE3F153C}</ProjectGuid>
+    <ProjectGuid>{18CFE7C2-97A7-4060-A43A-4C3556A6518B}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>ConsoleApp2</RootNamespace>
     <AssemblyName>ConsoleApp2</AssemblyName>
@@ -33,7 +33,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ClassLibrary1">
-      <HintPath>..\..\..\ClassLibrary1.dll</HintPath>
+      <HintPath>..\..\..\municipality-library-miurrutia2\ConsoleApp2\ConsoleApp2\ClassLibrary1.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -45,7 +45,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
