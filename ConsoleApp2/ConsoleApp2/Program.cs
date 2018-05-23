@@ -8,6 +8,7 @@ using ClassLibrary1;
 
 namespace ConsoleApp2
 {
+    [Serializable]
     class Program
     {
         static void Main(string[] args)
@@ -42,6 +43,7 @@ namespace ConsoleApp2
                     diesel = true;
                 }
                 Car auto = new Car(brand, model, year, null, licencePlate, seatbelt, diesel);
+                Auto.Add(auto);
 
             }
 
@@ -63,7 +65,7 @@ namespace ConsoleApp2
                 //string madre = Console.ReadLine();
 
                 Person persona = new Person(firstName, lastName, birthDate, null, rut, null, null);
-
+                Persona.Add(persona);
             }
 
             else if (Opcion == "3")
@@ -100,10 +102,12 @@ namespace ConsoleApp2
                 }
 
                 Address direccion = new Address(street1, number1, commune1, city, null, yearofconstruction, bedroom, bath, backyard1, pool1);
+                Direccion.Add(direccion);
             }
 
 
-
         }
+
+
     }
 }
